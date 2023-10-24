@@ -18,13 +18,13 @@ print("Lista de Edades:", edades)
 indice_mayor_edad = edades.index(max(edades))
 print(f"El aprendiz con la mayor edad es {aprendices[indice_mayor_edad]} con {max(edades)} años.")
 
-# Insertar el nombre de la instructora en la posicion 1
+# Insertar el nombre de la instructora que dirije la formacion
 nombre_instructora = input("Ingrese el nombre de la instructora: ")
 aprendices.insert(1, nombre_instructora)
 
-# Contar cuantos aprendices tienen 18 años
-conteo_18_anios = edades.count(18)
-print(f"Hay {conteo_18_anios} aprendices que son mayor de edad.")
+# Contar cuantos aprendices tienen la mayoria de edad
+conteo_edad = edades.count(18)
+print(f"Hay {conteo_edad} aprendices que son mayor de edad.")
 
 # Agregarme al final de la lista
 aprendices.append("Nicolas Fierro")
